@@ -53,8 +53,8 @@ def safe_remove(file_path):
 class ImageProcessor:
     def __init__(self):
         self.template_paths = [
-            'C:/Users/balta/Downloads/gamma/test3.png',
-            'C:/Users/balta/Downloads/gamma/test.png'
+            'test3.png',
+            'test.png'
         ]
         self.logger = logging.getLogger(__name__)
 
